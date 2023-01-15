@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+div{
+    height: 100vh;
+    position: relative;
+    z-index: 1; 
+}
+
+span{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: auto;
+
+}
+
+h2:hover{
+    color: red;
+}
+
+.rotate{
+    
+    animation-duration: 0.7s;
+    /* border: 1px solid red; */
+    animation-name: rotate;
+}
+
+@keyframes rotate {
+    0% {
+    transform: rotate(0);
+    }
+    100% {
+    transform: rotate(360deg);
+    }
+}
