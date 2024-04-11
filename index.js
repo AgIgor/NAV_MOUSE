@@ -1,3 +1,7 @@
+Notification.requestPermission().then(function (permission) {
+    console.log(permission);
+});
+
 const div = document.querySelector('div')
 const nav = document.querySelector('span')
 const h2 = document.querySelector('h2')
